@@ -1,0 +1,32 @@
+:root {
+    --pc-header-height: 80px;
+    --mobile-header-height: 60px;
+    --light-file-color: #F9F5EB;
+    --about-page-color: #E2BF34;
+    --works-page-color: #89BECE;
+    --contact-page-color: #A06D99;
+    --dark-file-color: #EAE3D2;
+    --dark-text-color: #000;
+    --light-text-color: #F9F5EB;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans KR', sans-serif;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+section {
+    width: 100%;
+    height: 100vh;
+}
+
+/* .container {
+    width: 90%;
+} */
