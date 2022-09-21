@@ -26,7 +26,6 @@ header {
 }
 
 header a {
-    /* outline: 1px solid red; */
     display: block;
 }
 
@@ -83,7 +82,7 @@ header a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* outline: 1px solid red; */
+
 }
 
 .frontWrap h3 {
@@ -109,7 +108,6 @@ header a {
 
 .aboutWrap {
     width: 95%;
-    /* outline: 1px solid red; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -117,15 +115,11 @@ header a {
 }
 
 .profileImg {
-    /* outline: 1px solid red; */
     width: 25%;
-    /* margin-right: 5%; */
     margin-bottom: 5%;
 }
 
 .profileContents {
-    /* outline: 1px solid red; */
-    /* width: 50%; */
     display: flex;
     flex-direction: column;
 }
@@ -141,7 +135,6 @@ header a {
     display: flex;
     text-align: center;
     justify-content: center;
-    /* outline: 1px solid green; */
 }
 
 .hashtag p {
@@ -181,13 +174,9 @@ header a {
     flex-direction: row;
     justify-content: center;
     align-items: start;
-    /* margin-bottom: 2%; */
-    /* outline: 1px solid blue; */
-    /* text-align: center; */
 }
 
 .aboutMe {
-    /* outline: 1px solid orange; */
     width: 50%;
     margin-bottom: 3%;
 }
@@ -200,14 +189,12 @@ header a {
 
 .education {
     margin-top: 3%;
-    /* outline: 1px solid green; */
     width: 50%;
     margin-bottom: 3%;
 }
 
 .skills {
     margin-top: 3%;
-    /* outline: 1px solid blue; */
     width: 40%;
     margin-left: 3%;
 }
@@ -219,7 +206,6 @@ header a {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* outline: 1px solid red; */
 }
 
 .work {
@@ -228,12 +214,10 @@ header a {
     justify-content: center;
     align-items: center;
     text-align: center;
-    /* outline: 1px solid red; */
 }
 
 .muImg {
     width: 70%;
-    /* margin-right: 3%; */
 }
 
 .muImg.pc {
@@ -266,12 +250,7 @@ header a {
     background: #fff;
     font-size: 12px;
     border: none;
-}
-
-#workspage6 {
-    width: 100%;
-    background: var(--works-page-color);
-    outline: 1px solid blue;
+    color: #000;
 }
 
 /* contact page */
@@ -281,10 +260,10 @@ header a {
     display: flex;
     align-items: center;
     justify-content: center;
+    height: calc(100vh - 80px);
 }
 
 .contactWrap {
-    /* width: 90%; */
     display: flex;
     flex-direction: column;
     text-align: left;

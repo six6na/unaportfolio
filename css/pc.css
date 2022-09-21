@@ -22,7 +22,6 @@ header {
 }
 
 header a {
-    /* outline: 1px solid red; */
     display: block;
 }
 
@@ -78,7 +77,6 @@ header a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* outline: 1px solid red; */
 }
 
 .frontWrap h3 {
@@ -104,20 +102,17 @@ header a {
 
 .aboutWrap {
     width: 96%;
-    /* outline: 1px solid red; */
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .profileImg {
-    /* outline: 1px solid red; */
     width: 20%;
     margin-right: 5%;
 }
 
 .profileContents {
-    /* outline: 1px solid red; */
     /* width: 50%; */
     display: flex;
     flex-direction: column;
@@ -131,7 +126,6 @@ header a {
     margin-top: 10px;
     margin-bottom: 20px;
     display: flex;
-    /* outline: 1px solid green; */
 }
 
 .hashtag p {
@@ -159,11 +153,9 @@ header a {
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 2%;
-    /* outline: 1px solid blue; */
 }
 
 .aboutMe {
-    /* outline: 1px solid orange; */
     width: 50%;
 }
 
@@ -173,13 +165,11 @@ header a {
 
 .education {
     margin-top: 3%;
-    /* outline: 1px solid green; */
     width: 50%;
 }
 
 .skills {
     margin-top: 3%;
-    /* outline: 1px solid blue; */
     width: 50%;
 }
 
@@ -190,14 +180,12 @@ header a {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* outline: 1px solid red; */
 }
 
 .work {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* outline: 1px solid red; */
 }
 
 .muImg {
@@ -232,6 +220,7 @@ header a {
     padding: 8px 15px;
     background: #fff;
     border: none;
+    color: #000;
 }
 
 /* contact page */
@@ -241,6 +230,7 @@ header a {
     display: flex;
     align-items: center;
     justify-content: center;
+    height: calc(100vh - 100px);
 }
 
 .contactWrap {
