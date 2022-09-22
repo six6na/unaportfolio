@@ -178,8 +178,14 @@ header a {
 .workSpace {
     background: var(--works-page-color);
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.workSpace h1 {
+    margin-bottom: 3%;
+    color: #fff;
 }
 
 .work {
@@ -230,7 +236,6 @@ header a {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: calc(100vh - 100px);
 }
 
 .contactWrap {

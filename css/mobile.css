@@ -204,11 +204,18 @@ header a {
 .workSpace {
     background: var(--works-page-color);
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
+.workSpace h1 {
+    font-size: 18px;
+    color: #fff;
+}
+
 .work {
+    width: 90%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -222,6 +229,10 @@ header a {
 
 .muImg.pc {
     width: 80%;
+}
+
+.brandLogo {
+    width: 40%;
 }
 
 .detailWrap h2 {
@@ -260,10 +271,10 @@ header a {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: calc(100vh - 80px);
 }
 
 .contactWrap {
+    width: 90%;
     display: flex;
     flex-direction: column;
     text-align: left;
@@ -272,21 +283,21 @@ header a {
 
 .contactWrap h1:nth-child(1) {
     margin-bottom: 25%;
-    font-size: 36px;
+    font-size: 20px;
 }
 
 .contactWrap h1:nth-child(2) {
-    font-size: 24px;
+    font-size: 16px;
     font-weight: 700;
     margin-bottom: 6%;
     padding-bottom: 5px;
     border-bottom: 1px solid var(--light-file-color);
-    width: 110px;
+    width: 75px;
     color: var(--light-file-color);
 }
 
 .contactWrap p {
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 400;
     margin-bottom: 10%;
     color: var(--light-file-color);
@@ -297,7 +308,7 @@ header a {
 }
 
 .contactWrap a {
-    font-size: 16px;
+    font-size: 14px;
     margin-bottom: 10px;
     color: var(--light-file-color);
 }
