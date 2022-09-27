@@ -1,0 +1,42 @@
+[
+    {
+        "category":"mobile",
+        "title":"비비안웨스트우드",
+        "imgUrl":"./images/graphic02.jpg"
+    },
+    {
+        "category":"mobile",
+        "title":"20세기 스튜디오",
+        "imgUrl":"./images/graphic03.jpg"
+    },
+    {
+        "category":"pc",
+        "title":"카일리스킨",
+        "imgUrl":"./images/graphic04.jpg"
+    },
+    {
+        "category":"responsive",
+        "title":"카일리스킨",
+        "imgUrl":"./images/graphic04.jpg"
+    },
+    {
+        "category":"graphic",
+        "title":"그래픽포스터01",
+        "imgUrl":"./images/graphic05.jpg"
+    },
+    {
+        "category":"graphic",
+        "title":"비비안웨스트우드",
+        "imgUrl":"./images/graphic01.jpg"
+    },
+    {
+        "category":"graphic",
+        "title":"비비안웨스트우드",
+        "imgUrl":"./images/graphic06.jpg"
+    },
+    {
+        "category":"graphic",
+        "title":"비비안웨스트우드",
+        "imgUrl":"./images/graphic02.jpg"
+    }
+]
