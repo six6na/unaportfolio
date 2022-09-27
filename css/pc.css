@@ -43,7 +43,7 @@ header a {
     border-top-right-radius: 20px;
     border-top-left-radius: 20px;
     font-weight: 700;
-    color: #000;
+    color: #1b1c1e;
 }
 
 .aboutBtn {
@@ -144,7 +144,7 @@ header a {
     padding: 10px;
     border-radius: 50px;
     margin-right: 3%;
-    background: #000;
+    background: #1b1c1e;
 }
 
 .hashtag p:last-child {
@@ -184,7 +184,7 @@ header a {
 }
 
 .graph img {
-    width: 8%;
+    width: 7%;
 }
 
 .progressBar {
@@ -195,9 +195,30 @@ header a {
 }
 
 .progress {
-    width: 80%;
     height: 30px;
-    background-color: #000;
+    background-color: #1b1c1e;
+}
+
+.ps .progress,
+.ai .progress
+{
+    width: 80%;
+}
+
+.figma .progress {
+    width: 75%;
+}
+
+.html .progress,
+.css .progress 
+{
+    width: 70%;
+}
+
+.javascript .progress,
+.jquery .progress
+{
+    width: 40%;
 }
 
 /* works page */
@@ -250,7 +271,7 @@ header a {
 }
 
 .brandLogo {
-    /* width: 20%; */
+    width: 25%;
     margin-bottom: 2%;
 }
 
@@ -260,7 +281,7 @@ header a {
 
 .btns a {
     padding: 5px 10px;
-    background: #000;
+    background: #1b1c1e;
     font-size: 14px;
     font-weight: 500;
     color: var(--works-page-color);
@@ -366,15 +387,15 @@ footer {
     border-radius: 30px;
     text-align: center;
     margin: 0 2%;
-    background: #000;
+    background: #1b1c1e;
     color: var(--works-page-color);
 }
 
 .filterBtns button.active, 
 .filterBtns button:hover
 {
-    color: #000;
-    border: 1px solid #000;
+    color: #1b1c1e;
+    border: 1px solid #1b1c1e;
     background: var(--works-page-color);
 }
 
@@ -411,7 +432,9 @@ footer {
     align-items: center;
     justify-content: center;
     color: var(--works-page-color);
-    background: rgba(0, 0, 0, 0.7);
+    background: rgba(0, 0, 0, 0.9);
+    padding: 5px;
+    
 }
 
 .contImg {
@@ -463,7 +486,7 @@ footer {
   #closeBtn {
     border: none;
     background: var(--works-page-color);
-    color: #000;
+    color: #1b1c1e;
     cursor: pointer;
     padding: 4px 8px;
   }
