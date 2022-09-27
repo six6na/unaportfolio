@@ -219,9 +219,30 @@ header a {
 }
 
 .progress {
-    width: 80%;
     height: 20px;
     background-color: #1b1c1e;
+}
+
+.ps .progress,
+.ai .progress
+{
+    width: 80%;
+}
+
+.figma .progress {
+    width: 75%;
+}
+
+.html .progress,
+.css .progress 
+{
+    width: 70%;
+}
+
+.javascript .progress,
+.jquery .progress
+{
+    width: 40%;
 }
 
 /* works page */
