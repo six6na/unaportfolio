@@ -17,6 +17,9 @@
     href="./css/pc.css"
     media="screen and (min-width: 768px)"
     >
+
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+
     <title>una's portfolio</title>
 </head>
 <body>
@@ -38,22 +41,22 @@
                 <h1>Portfolio<span>2022</span></h1>
             </div>
         </section>
+
         <section id="aboutPage">
-            <div class="aboutWrap container">
-                    <img class="profileImg" src="./images/profileImg.jpg" alt="profile img">
+           <div class="aboutWrap">
+            <div class="profileTop">
+                <img src="./images/profileImg.jpg" alt="" class="profileImg">
                 <div class="profileContents">
                     <div class="intro">
-                        <h3>내일이 더 기대되는 디자이너 김유나입니다.</h3>
+                        <h1>내일이 더 기대되는 웹디자이너 김유나입니다.</h1>
                         <div class="hashtag">
                             <p>#도전적인</p>
                             <p>#창의적인</p>
                             <p>#성실한</p>
                             <p>#감각적인</p>
-                            <p>#책임감강한</p>
+                            <p>#강한책임감</p>
                         </div>
-                    </div>
-                    <div class="profileInfo">
-                        <div class="pc-b">
+                        <div class="profile">
                             <div class="aboutMe">
                                 <h4>About Me</h4>
                                 <p>김유나</p>
@@ -62,136 +65,242 @@
                             </div>
                             <div class="license">
                                 <h4>License</h4>
-                                <p>2022.08  GTQ 1급</p>
-                                <p>2022.09  웹디자인기능사</p>
+                                <p>2022.08 GTQ 1급</p>
+                                <p>2022.09 웹디자인기능사</p>
                             </div>
                             <div class="education">
                                 <h4>Education</h4>
-                                <p>2022.09  UI/UX 웹퍼블리셔 과정 수료</p>
-                                <p>2022.01  검단고등학교 졸업</p>
-                            </div>
-                            <div class="skills">
-                                <h4>Skills</h4>
-                                <div class="skill">
-                                    <p>Photoshop</p>
-                                    <p>Illustrator</p>
-                                    <p>Figma</p>
-                                    <p>HTML</p>
-                                    <p>CSS</p>
-                                    <p>Javascript</p>
-                                    <p>jquery</p>
-                                </div>
+                                <p>2022.09 UI/UX 웹퍼블리셔과정 수료</p>
+                                <p>2022.01 검단고등학교 졸업</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <div class="profileBottom">
+                <div class="skills">
+                    <div class="ps graph">
+                        <img src="./images/htmlBadge.png" alt="">
+                        <div class="progressBar">
+                            <div class="progress"></div>
+                        </div>
+                        <h5>80%</h5>
+                    </div>
+                    <div class="ps graph">
+                        <img src="./images/htmlBadge.png" alt="">
+                        <div class="progressBar">
+                            <div class="progress"></div>
+                        </div>
+                        <h5>80%</h5>
+                    </div>
+                    <div class="ps graph">
+                        <img src="./images/htmlBadge.png" alt="">
+                        <div class="progressBar">
+                            <div class="progress"></div>
+                        </div>
+                        <h5>80%</h5>
+                    </div>
+                    <div class="ps graph">
+                        <img src="./images/htmlBadge.png" alt="">
+                        <div class="progressBar">
+                            <div class="progress"></div>
+                        </div>
+                        <h5>80%</h5>
+                    </div>
+                    <div class="ps graph">
+                        <img src="./images/htmlBadge.png" alt="">
+                        <div class="progressBar">
+                            <div class="progress"></div>
+                        </div>
+                        <h5>80%</h5>
+                    </div>
+                    <div class="ps graph">
+                        <img src="./images/htmlBadge.png" alt="">
+                        <div class="progressBar">
+                            <div class="progress"></div>
+                        </div>
+                        <h5>80%</h5>
+                    </div>
+                    <div class="ps graph">
+                        <img src="./images/htmlBadge.png" alt="">
+                        <div class="progressBar">
+                            <div class="progress"></div>
+                        </div>
+                        <h5>80%</h5>
+                    </div>
+                </div>
+            </div>
+           </div>
         </section>
 
-        <section id="workspage" class="workSpace">
-            <h1>Mobile</h1>
-            <div class="work">
-                <img src="./images/20th-mu.png" alt="img" class="muImg">
-                    <div class="detailWrap">
-                        <img src="./images/20th-logo.png" alt="" class="brandLogo">
-                        <h2>20th Century Studios</h2>
-                        <h4>OverView</h4>
-                        <p>
-                            오랫동안 사랑받아온 20세기 영화사의 모바일 <br>
-                            페이지입니다.  20세기 영화사의 다양한 콘텐츠를<br>
-                            어떻게 하면 더 편리하게 접할 수 있을까? 라는 생각을<br>
-                            바탕으로 제작하게 되었습니다. 
-                        </p>
-                        <div class="detailBtn">
-                            <a href="https://six6na.github.io/20thCenturyStudios_/" class="web">웹페이지</a>
-                            <a href="https://drive.google.com/file/d/1Km2H21wTh9rFaJ6ZHr4oeNaibg3nJ6rf/view?usp=sharing" class="pdf">pdf 자료</a>
-                        </div>
+        <div class="swiper worksSwiper">
+            <div class="swiper-wrapper">
+              <div id="workspage" class="swiper-slide">
+                <div class="workSpace">
+                    <h1>Mobile</h1>
+                    <div class="worksWrap">
+                        <img src="./images/20th-mu.png" alt="" class="muImg">
+                        <div class="details">
+                            <img src="./images/20th-logo.png" alt="" class="brandLogo">
+                            <h2>20th Century Studios</h2>
+                            <h5>Overview</h5>
+                            <p>오랫동안 사랑받아온 20세기 영화사의 모바일
+                                페이지입니다. 20세기 영화사의 다양한 콘텐츠를
+                                어떻게 하면 더 편리하게 접할 수 있을까? 라는 생각을
+                                바탕으로 제작하게 되었습니다.
+                            </p>
+                            <div class="btns">
+                                <a href="#" class="pageBtn">웹페이지</a>
+                                <a href="#" class="pdfBtn">pdf 자료</a>
+                            </div>
+                        </div>    
                     </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="workSpace">
+                    <h1>Mobile</h1>
+                    <div class="worksWrap">
+                        <img src="./images/vivienne-mu.png" alt="" class="muImg">
+                        <div class="details">
+                            <img src="./images/vivienne-logo.png" alt="" class="brandLogo">
+                            <h2>Vivienne Westwood</h2>
+                            <h5>Overview</h5>
+                            <p>오랫동안 사랑받아온 20세기 영화사의 모바일
+                                페이지입니다. 20세기 영화사의 다양한 콘텐츠를
+                                어떻게 하면 더 편리하게 접할 수 있을까? 라는 생각을
+                                바탕으로 제작하게 되었습니다.
+                            </p>
+                            <div class="btns">
+                                <a href="#" class="pageBtn">웹페이지</a>
+                                <a href="#" class="pdfBtn">pdf 자료</a>
+                            </div>
+                        </div>    
+                    </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="workSpace">
+                    <h1>Responsive</h1>
+                    <div class="worksWrap">
+                        <img src="./images/kylie-mu.png" alt="" class="muImg-pc">
+                        <div class="details">
+                            <img src="./images/kylie-logo.png" alt="" class="brandLogo">
+                            <h2>KylieSkin</h2>
+                            <h5>Overview</h5>
+                            <p>오랫동안 사랑받아온 20세기 영화사의 모바일
+                                페이지입니다. 20세기 영화사의 다양한 콘텐츠를
+                                어떻게 하면 더 편리하게 접할 수 있을까? 라는 생각을
+                                바탕으로 제작하게 되었습니다.
+                            </p>
+                            <div class="btns">
+                                <a href="#" class="pageBtn">웹페이지</a>
+                                <a href="#" class="pdfBtn">pdf 자료</a>
+                            </div>
+                        </div>    
+                    </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="workSpace">
+                    <h1>PC</h1>
+                    <div class="worksWrap">
+                        <img src="./images/dip-mu 1.png" alt="" class="muImg" class="muImg-pc">
+                        <div class="details">
+                            <img src="./images/diptyque-logo.png" alt="" class="brandLogo">
+                            <h2>Diptyque</h2>
+                            <h5>Overview</h5>
+                            <p>오랫동안 사랑받아온 20세기 영화사의 모바일
+                                페이지입니다. 20세기 영화사의 다양한 콘텐츠를
+                                어떻게 하면 더 편리하게 접할 수 있을까? 라는 생각을
+                                바탕으로 제작하게 되었습니다.
+                            </p>
+                            <div class="btns">
+                                <a href="#" class="pageBtn">웹페이지</a>
+                                <a href="#" class="pdfBtn">pdf 자료</a>
+                            </div>
+                        </div>    
+                    </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="workSpace">
+                    <h1>PC</h1>
+                    <div class="worksWrap">
+                        <img src="./images/br-mu 1.png" alt="" class="muImg" class="muImg-pc">
+                        <div class="details">
+                            <img src="./images/br-logo.png" alt="" class="brandLogo">
+                            <h2>BaskinRobbins Brown</h2>
+                            <h5>Overview</h5>
+                            <p>오랫동안 사랑받아온 20세기 영화사의 모바일
+                                페이지입니다. 20세기 영화사의 다양한 콘텐츠를
+                                어떻게 하면 더 편리하게 접할 수 있을까? 라는 생각을
+                                바탕으로 제작하게 되었습니다.
+                            </p>
+                            <div class="btns">
+                                <a href="#" class="pageBtn">웹페이지</a>
+                                <a href="#" class="pdfBtn">pdf 자료</a>
+                            </div>
+                        </div>    
+                    </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+
+        <section class="otherWorks">
+            <div class="owWrap">
+                <div class="filterBtns">
+                    <button class="btn active" data-filter="all">all</button>
+                    <button class="btn" data-filter="mobile">mobile</button>
+                    <button class="btn" data-filter="pc">pc</button>
+                    <button class="btn" data-filter="responsive">responsive</button>
+                    <button class="btn" data-filter="graphics">graphics</button>
+                </div>
+                <ul class="contWrap">
+                    <li class="cont mobile">
+                        <p class="projectTitle">다양한 이야기가 섞여 떠다니는 꿈의 모습을 표현한 그래픽포스터</p>
+                        <img src="./images/graphic01.jpg" alt="" class="contImg">
+                    </li>
+                    <li class="cont mobile">
+                        <p class="projectTitle">세포 분열기가 떠오르는 그라디언트 그래픽포스터</p>
+                        <img src="./images/graphic02.jpg" alt="" class="contImg">
+                    </li>
+                    <li class="cont pc">
+                        <p class="projectTitle">세포 분열기가 떠오르는 그라디언트 그래픽포스터</p>
+                        <img src="./images/graphic03.jpg" alt="" class="contImg">
+                    </li>
+                    <li class="cont graphics">
+                        <p class="projectTitle">세포 분열기가 떠오르는 그라디언트 그래픽포스터</p>
+                        <img src="./images/graphic04.jpg" alt="" class="contImg">
+                    </li>
+                    <li class="cont responsive">
+                        <p class="projectTitle">세포 분열기가 떠오르는 그라디언트 그래픽포스터</p>
+                        <img src="./images/graphic05.jpg" alt="" class="contImg">
+                    </li>
+                    <li class="cont pc">
+                        <p class="projectTitle">세포 분열기가 떠오르는 그라디언트 그래픽포스터</p>
+                        <img src="./images/graphic06.jpg" alt="" class="contImg">
+                    </li>
+                    <li class="cont responsive">
+                        <p class="projectTitle">세포 분열기가 떠오르는 그라디언트 그래픽포스터</p>
+                        <img src="./images/graphic01.jpg" alt="" class="contImg">
+                    </li>
+                    <li class="cont graphics">
+                        <p class="projectTitle">세포 분열기가 떠오르는 그라디언트 그래픽포스터</p>
+                        <img src="./images/graphic02.jpg" alt="" class="contImg">
+                    </li>
+                </ul>
+            </div>
+            <div id="lightbox">
+                <div class="box">
+                  <img src="./images/graphic01.jpg" alt="light box image">
+                  <button id="closeBtn">X</button>
+                </div>
             </div>
         </section>
-        <section id="workspage2" class="workSpace">
-            <h1>Mobile</h1>
-            <div class="work">
-                <img src="./images/vivienne-mu.png" alt="img" class="muImg">
-                    <div class="detailWrap">
-                        <img src="./images/vivienne-logo.png" alt="" class="brandLogo">
-                        <h2>Vivienne Westwood</h2>
-                        <h4>OverView</h4>
-                        <p>
-                            강력한 펑크룩의 대명사인 viviennewestwood의<br>
-                            모바일 페이지입니다. 사용자들이 모바일 페이지를<br>
-                            편안하게 이용하면서 갤러리를 구경하는듯한 느낌을<br>
-                            주고싶어 만들게 되었습니다.
-                        </p>
-                        <div class="detailBtn">
-                            <a href="https://six6na.github.io/vivienneWestwood/" class="web">웹페이지</a>
-                            <a href="https://drive.google.com/file/d/18mW0vPEe0_IYW5nC375L2BRiph1azf2l/view?usp=sharing" class="pdf">pdf 자료</a>
-                        </div>
-                    </div>
-            </div>
-        </section>
-        <section id="workspage3" class="workSpace">
-            <h1>responsive</h1>
-            <div class="work">
-                <img src="./images/kylie-mu.png" alt="img" class="muImg pc">
-                    <div class="detailWrap">
-                        <img src="./images/kylie-logo.png" alt="" class="brandLogo">
-                        <h2>Kylie Skin</h2>
-                        <h4>OverView</h4>
-                        <p>
-                            Kylie Jenner가 출시한 스킨케어 라인 KYLIE SKIN의<br>
-                            페이지 입니다. KYLIE가 가진 이미지를 KYLIE SKIN 페이지<br>
-                            에서도 느낄 수 있으면 좋을것 같다는 생각에 제작하게 되었습니다.
-                        </p>
-                        <div class="detailBtn">
-                            <a href="https://six6na.github.io/kylieskin/" class="web">웹페이지</a>
-                            <a href="https://drive.google.com/file/d/1IEkxl24tkFQt91JybSVCra9wTNYOB2_D/view?usp=sharing" class="pdf">pdf 자료</a>
-                        </div>
-                    </div>
-            </div>
-        </section>
-        <section id="workspage4" class="workSpace">
-            <h1>pc</h1>
-            <div class="work">
-                <img src="./images/br-mu 1.png" alt="img" class="muImg pc">
-                    <div class="detailWrap">
-                        <img src="./images/br-logo.png" alt="" class="brandLogo">
-                        <h2>BaskinRobbins Brown</h2>
-                        <h4>OverView</h4>
-                        <p>
-                            배스킨 라빈스 브라운은 단 하나뿐인 매장이며 오직<br>
-                            배스킨라빈스 브라운에서만 맛 볼 수 있는 메뉴도 있기<br>
-                            때문에 이러한 특징을 살려 배스킨라빈스 브라운의 페이지를<br>
-                            만들게 되었다.
-                        </p>
-                        <div class="detailBtn">
-                            <a href="https://six6na.github.io/brBROWN/" class="web">웹페이지</a>
-                            <a href="https://drive.google.com/file/d/1qiBqRmi4KPW8SmSE2Jl3nZ705gjxqUFV/view?usp=sharing" class="pdf">pdf 자료</a>
-                        </div>
-                    </div>
-            </div>
-        </section>
-        <section id="workspage5" class="workSpace">
-            <h1>pc</h1>
-            <div class="work">
-                <img src="./images/dip-mu 1.png" alt="img" class="muImg pc">
-                    <div class="detailWrap">
-                        <img src="./images/diptyque-logo.png" alt="" class="brandLogo">
-                        <h2>Diptyque</h2>
-                        <h4>OverView</h4>
-                        <p>
-                            딥디크 향수는 어딘가 특별한 매력을 가지고 있어<br>
-                            많은 사람들에게 사랑을 받고있습니다. 다른 향수와<br>
-                            다른 딥디크만의 매력이 잘 느껴지는 페이지를 만듬면<br>
-                            좋겠다는 생각에 제작하게 되었습니다.
-                        </p>
-                        <div class="detailBtn">
-                            <a href="https://six6na.github.io/diptyque/" class="web">웹페이지</a>
-                            <a href="https://drive.google.com/file/d/1w7hPWHltAIfU1P6nbg1EBycdjCYWAL9_/view?usp=sharing" class="pdf">pdf 자료</a>
-                        </div>
-                    </div>
-            </div>
-        </section>
+
         
         <section id="contactPage">
             <div class="contactWrap">
@@ -214,6 +323,27 @@
         </p>
         <p>Copyright ⓒ 2022 Webdesigner UNA. All Rights Reserved</p>
     </footer>
+
+    <script src="./js/jquery-3.6.0.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".worksSwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        },
+      });
+    </script>
 
 </body>
 </html>

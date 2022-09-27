@@ -5,7 +5,7 @@ header {
     height: 80px;
     width: 100%;
     position: fixed;
-    z-index: 1;
+    z-index: 999;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -98,140 +98,178 @@ header a {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
 }
 
 .aboutWrap {
-    width: 96%;
+    width: 95%;
+    margin-top: 80px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
+    /* outline: 1px solid red; */
 }
 
-.profileImg {
-    width: 20%;
-    margin-right: 5%;
+.profileTop {
+    width: 100%;
+    padding: 0 5%;
+    /* outline: 1px solid purple; */
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.profileTop img {
+    width: 16%;
 }
 
 .profileContents {
-    /* width: 50%; */
-    display: flex;
-    flex-direction: column;
+    width: 70%;
 }
 
-.intro h3 {
+.intro h1 {
     font-size: 28px;
 }
 
 .hashtag {
-    margin-top: 10px;
-    margin-bottom: 20px;
     display: flex;
+    margin: 2% 0;
 }
 
 .hashtag p {
-    line-height: 25px;
-    padding: 1% 2%;
-    margin-right: 10px;
-    background: var(--light-file-color);
-    border-radius: 30px;
+    text-align: center;
+    color: var(--about-page-color);
+    width: 15%;
+    padding: 10px;
+    border-radius: 50px;
+    margin-right: 3%;
+    background: #000;
 }
 
-.profileInfo {
+.hashtag p:last-child {
+    margin-right: 0;
+}
+
+.profile {
     display: flex;
-    flex-direction: column;
+    /* outline: 1px solid red; */
+    width: 80%;
+    justify-content: space-between;
 }
 
-.profileInfo h4 {
-    margin-bottom: 5px;
-}
-
-.profileInfo p {
-    margin-bottom: 3px;
-}
-
-.pc-b {
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 2%;
-}
-
-.aboutMe {
-    width: 50%;
-}
-
-.license {
-    width: 50%;
-}
-
-.education {
-    margin-top: 3%;
-    width: 50%;
+.profile h4 {
+    margin-bottom: 1%;
 }
 
 .skills {
-    margin-top: 3%;
-    width: 50%;
+    /* outline: 1px solid blue; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    flex: 1 1 40%;
+    gap: 10px;
+    width: 100%;
+    padding: 0 5%;
+    margin-top: 2%;
+}
+
+.graph {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* outline: 1px solid blue; */
+    width: 49%;
+}
+
+.graph img {
+    width: 8%;
+}
+
+.progressBar {
+    width: 100%;
+    height: 30px;
+    background-color: var(--dark-file-color);
+    margin: 0 1%;
+}
+
+.progress {
+    width: 80%;
+    height: 30px;
+    background-color: #000;
 }
 
 /* works page */
 
-.workSpace {
+.worksSwiper {
+    width: 100%;
+    height: 100vh;
     background: var(--works-page-color);
+}
+
+.swiper-slide {
+    /* outline: 1px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.workSpace {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 
-.workSpace h1 {
-    margin-bottom: 3%;
-    color: #fff;
-}
-
-.work {
+.worksWrap {
+    /* outline: 1px solid blue; */
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 3%;
+    width: 100%;
 }
 
 .muImg {
+    width: 30%;
+    margin-right: 5%;
+}
+
+.muImg-pc {
     width: 40%;
-    margin-right: 3%;
+    margin-right: 5%;
 }
 
-.muImg.pc {
+.details {
+    /* outline: 1px solid red; */
     width: 40%;
 }
 
-.detailWrap h2 {
-    margin-bottom: 5%;
-    margin-top: 5%;
-    color: #fff;
+.details h2 {
+    margin-bottom: 2%;
 }
 
-.detailWrap h4 {
-    margin-bottom:4%;
-    color: #fff;
+.brandLogo {
+    /* width: 20%; */
+    margin-bottom: 2%;
 }
 
-.detailWrap p {
-    color: #fff;
+.btns {
+    margin-top: 2%;
 }
 
-.detailBtn {
-    margin-top: 4%;
-}
-
-.detailBtn a {
-    padding: 8px 15px;
-    background: #fff;
-    border: none;
-    color: #000;
+.btns a {
+    padding: 5px 10px;
+    background: #000;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--works-page-color);
 }
 
 /* contact page */
 
 #contactPage {
+    height: 100vh;
     background: var(--contact-page-color);
     display: flex;
     align-items: center;
@@ -295,3 +333,141 @@ footer {
     justify-content: center;
     text-align: center;
 }
+
+/* otherWorks */
+
+.otherWorks {
+    width: 100%;
+    height: 100vh;
+    background: var(--works-page-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.owWrap {
+    width: 90%;
+    /* outline: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.filterBtns {
+    margin: 2% 0;
+    display: flex;
+}
+
+.filterBtns button {
+    display: block;
+    width: 125px;
+    padding: 10px;
+    border-radius: 30px;
+    text-align: center;
+    margin: 0 2%;
+    background: #000;
+    color: var(--works-page-color);
+}
+
+.filterBtns button.active, 
+.filterBtns button:hover
+{
+    color: #000;
+    border: 1px solid #000;
+    background: var(--works-page-color);
+}
+
+.contWrap {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 30%;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.cont {
+    position: relative;
+}
+
+.cont:hover {
+    transform: scale(98%);
+}
+
+.projectTitle {
+    display: none;
+}
+
+.projectTitle.on {
+    font-size: 14px;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--works-page-color);
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.contImg {
+    object-fit: cover;
+    width: 200px;
+    height: 200px;
+}
+
+.cont.show{
+    animation: fadeIn 0.8s ease;
+}
+@keyframes fadeIn{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+.cont.hide{
+    display: none;
+}
+
+
+#lightbox {
+    position: absolute;
+    background: rgba(0,0,0,0.75);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+  }
+  
+
+  #lightbox.on {
+    display: flex;
+  }
+  
+  #lightbox .box {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  #closeBtn {
+    border: none;
+    background: var(--works-page-color);
+    color: #000;
+    cursor: pointer;
+    padding: 4px 8px;
+  }
+
+  .box img {
+    width: 28%;
+  }
