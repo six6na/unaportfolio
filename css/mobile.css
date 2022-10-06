@@ -114,15 +114,12 @@ header a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    /* outline: 1px solid red; */
 }
 
 .profileTop {
     width: 100%;
-    /* outline: 1px solid purple; */
     display: flex;
     flex-direction: column;
-    /* justify-content: space-between; */
     align-items: center;
 }
 
@@ -164,11 +161,9 @@ header a {
     display: flex;
     flex-wrap: wrap;
     flex: 1 1 40%;
-    /* outline: 1px solid red; */
     width: 100%;
     justify-content: space-between;
     row-gap: 10px;
-    /* text-align: center; */
     padding: 0 5%;
 }
 
@@ -182,7 +177,6 @@ header a {
 }
 
 .skills {
-    /* outline: 1px solid blue; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -198,7 +192,6 @@ header a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* outline: 1px solid blue; */
     width: 48%;
 }
 
@@ -250,7 +243,6 @@ header a {
 }
 
 .swiper-slide {
-    /* outline: 1px solid red; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -263,7 +255,6 @@ header a {
 }
 
 .worksWrap {
-    /* outline: 1px solid blue; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -283,7 +274,6 @@ header a {
 }
 
 .details {
-    /* outline: 1px solid red; */
     width: 90%;
     display: flex;
     flex-direction: column;
@@ -302,7 +292,7 @@ header a {
 }
 
 .btns {
-    margin-top: 2%;
+    margin-top: 3%;
 }
 
 .btns a {
