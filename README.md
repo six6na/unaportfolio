@@ -2,7 +2,7 @@
 ![image](https://user-images.githubusercontent.com/105402240/194889558-bfc09f8d-1622-4819-9e57-b4181956fa97.png)
 
 # 포트폴리오 링크
-https://six6na.github.io/unaportfolio/
+
 
 # 디자인
 인덱스 파일 모양을 따 디자인한 포트폴리오로 알록달록한 색깔처럼 다양한 디자인, 다채로운 모습을 보여주고 싶은 마음을 담았습니다.
